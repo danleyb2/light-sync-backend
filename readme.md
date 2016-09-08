@@ -1,7 +1,5 @@
-# Node.js Socket.io Example
+# Light Sync Node.js Backend.
 
-This example accompanies the
-[Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
-tutorial.
+Backend for the Light Sync Android Application.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
