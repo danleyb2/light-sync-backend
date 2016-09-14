@@ -27,7 +27,7 @@ io.on('connection', (socket) => {
     var addedUser = false;
 
     //'mongodb://user:pass@ds029486.mlab.com:29486/heroku_n8vmk6lc'
-    mongo.connect(process.env.MONGOLAB_URI, function(err, db) {
+    mongo.connect(process.env.MONGODB_URI, function(err, db) {
 
         if (err) {
             console.error("Could not connect to db");
